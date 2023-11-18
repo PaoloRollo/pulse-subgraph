@@ -6,7 +6,7 @@ dataSources:
     name: PulseToken
     network: base-testnet
     source:
-      address: "0x0159ba3da955aa90a15452b962857ace7818ccb8"
+      address: "0xd4d65bb544776f1200ef59793c33c66175668455"
       abi: PulseToken
       startBlock: 12567533
     mapping:

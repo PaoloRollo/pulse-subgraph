@@ -138,7 +138,7 @@ export function handleTransferSingle(event: TransferSingleEvent): void {
       subject = "New NFT minted!",
       message = `You just minted a new NFT.`,
       image =
-        "https://play-lh.googleusercontent.com/i911_wMmFilaAAOTLvlQJZMXoxBF34BMSzRmascHezvurtslYUgOHamxgEnMXTklsF-S",
+        "https://pulse-indol.vercel.app/logo-pulse.png",
       secret = "null",
       cta = "https://pulse-indol.vercel.app/";
 
