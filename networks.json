@@ -1,0 +1,8 @@
+{
+  "base-testnet": {
+    "PulseToken": {
+      "address": "0x0159ba3da955aa90a15452b962857ace7818ccb8",
+      "startBlock": 12567533
+    }
+  }
+}
