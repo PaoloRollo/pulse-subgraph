@@ -8,7 +8,7 @@ dataSources:
     source:
       address: "0xd4d65bb544776f1200ef59793c33c66175668455"
       abi: PulseToken
-      startBlock: 12567533
+      startBlock: 12571814
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7

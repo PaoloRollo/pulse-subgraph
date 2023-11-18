@@ -7,7 +7,7 @@ import { subgraphID } from "./pulse-token";
 
 export function sendPushNotification(
   recipient: string,
-  notification: string,
+  notification: string
 ): void {
   let id1 = subgraphID;
   log.info("New id of EpnsNotificationCounter is: {}", [id1]);
@@ -17,7 +17,7 @@ export function sendPushNotification(
     epnsNotificationCounter.totalCount = BigInt.fromI32(0);
   }
   epnsNotificationCounter.totalCount = epnsNotificationCounter.totalCount.plus(
-    BigInt.fromI32(1),
+    BigInt.fromI32(1)
   );
 
   let count = epnsNotificationCounter.totalCount.toHexString();
