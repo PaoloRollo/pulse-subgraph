@@ -14,7 +14,7 @@ import {
   TransferSingle,
   URI,
 } from "../generated/schema";
-import { sendPushNotification } from "./pulse-notification";
+import { sendPushNotification } from "./push-notification";
 
 export const subgraphID = "paolorollo/pulse-subgraph";
 
